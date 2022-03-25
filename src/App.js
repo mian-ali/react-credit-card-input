@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import CreditCardInput from 'react-credit-card-input';
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+
+<h1>React Credit Card Input</h1>
+        <div className="CreditCardInput">
+<CreditCardInput 
+  customTextLabels={{
+    invalidCardNumber: 'invalidCardNumber',
+    expiryError: {
+      invalidExpiryDate: 'invalidExpiryDate',
+      monthOutOfRange: 'monthOutOfRange',
+      yearOutOfRange: 'yearOutOfRange',
+      dateOutOfRange: 'dateOutOfRange'
+    },
+    invalidCvc: 'invalidCvc',
+    invalidZipCode: 'invalidZipCode',
+    cardNumberPlaceholder: 'Enter Card Number',
+    expiryPlaceholder: 'MM/YY',
+    cvcPlaceholder: 'CVC',
+    zipPlaceholder: 'C.P.'
+  }}
+/>
+  </div>    </div>
+    )
+  }
 }
-
-export default App;
