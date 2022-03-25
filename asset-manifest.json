@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-credit-card-input/static/css/main.37ed48b1.css",
+    "main.js": "/react-credit-card-input/static/js/main.85c12466.js",
+    "static/js/787.d3befce1.chunk.js": "/react-credit-card-input/static/js/787.d3befce1.chunk.js",
+    "index.html": "/react-credit-card-input/index.html",
+    "main.37ed48b1.css.map": "/react-credit-card-input/static/css/main.37ed48b1.css.map",
+    "main.85c12466.js.map": "/react-credit-card-input/static/js/main.85c12466.js.map",
+    "787.d3befce1.chunk.js.map": "/react-credit-card-input/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37ed48b1.css",
+    "static/js/main.85c12466.js"
+  ]
+}
